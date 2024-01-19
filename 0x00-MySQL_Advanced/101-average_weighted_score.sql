@@ -1,5 +1,6 @@
--- Creates a stored procedure ComputeAverageWeightedScoreForUsers that
+-- Creates a stored procedure ComputeAverageWeightedScoreForUsers
 -- computes and store the average weighted score for all students.
+
 DROP PROCEDURE IF EXISTS ComputeAverageWeightedScoreForUsers;
 DELIMITER $$
 CREATE PROCEDURE ComputeAverageWeightedScoreForUsers ()
